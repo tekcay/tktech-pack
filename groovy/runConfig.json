@@ -1,7 +1,7 @@
 {
-  "packName": "PlaceHolder name",
-  "packId": "placeholdername",
-  "author": "Placeholder, author",
+  "packName": "TkTex",
+  "packId": "tktex",
+  "author": "tekcay",
   "version": "1.0.0",
   "debug": false,
   "classes": [

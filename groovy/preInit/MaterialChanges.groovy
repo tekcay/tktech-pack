@@ -7,6 +7,7 @@ import tkcy.tktech.api.render.ChemicalStructureRenderUtils;
 
 import material.ChemStructureMatProperty;
 import material.PhysicalMatProperty;
+import material.DistilledFluids;
 
 log.infoMC("Registering new material event listener")
 
@@ -21,5 +22,8 @@ eventManager.listen(EventPriority.LOWEST) {
 
         log.infoMC("Registering physical material properties")
         PhysicalMatProperty.register();
+
+        log.infoMC("Adding distilled fluids")
+        DistilledFluids.register();
     
 }
